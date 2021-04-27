@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #f6f6f6;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.aladin{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content:space-between;
+}
+.chap_aladin{
+    width: 50%;
+}
+.ong_aladin{
+    width: 50%;
+}
+.ong_aladin h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.ong_aladin p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.luna{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665
+}
+.luna img{
+    width: auto;
+    margin-right: 10px;
+}
+.sarlavha_narxlar h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+.sarlavha_narxlar p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665
+}
+.sarlavha_narxlar h1, .sarlavha_narxlar p{
+    text-align: center;
+}
+.narxlar{
+    margin-top: 210px;
+}
+.plan_narxlar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leyl{
+    display: flex;
+    flex-direction: column;
+}
+.plan{
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 80px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.leyla{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.plan button{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    padding: 13px 62px;
+    border-radius: 30px;
+    border: 1px solid #F53838;
+}
+.krc{
+    display: flex;
+    flex-direction: column;
+}
+.leyle{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.plan h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.plan button{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    padding: 13px 62px;
+    border-radius: 30px;
+    border: 1px solid #F53838; 
+}
+.rek{
+    display: flex;
+    flex-direction: column;  
+}
+.leyle{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.plan h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.plan button{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    padding: 13px 62px;
+    border-radius: 30px;
+    border: 1px solid #F53838;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star h1{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+color: #0B132A;
+padding-top: 150px;
+padding-bottom: 20px;
+}
+.star p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:150px 0px;
+}
+.rasm{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.customer h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 170px;
+}
+.customer p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    padding-bottom: 60px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 25px;
+    width: 20%;
+    height: 250px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chap_info, ong_info{
+    display:flex;
+    align-items: center;
+}
+.text p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #0B132A;
+    }
+.chap h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0B132A;
+}
+.glavniy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 110px;
+}
+.right{
+    transform: rotateY(180deg);
+    margin-left: 25px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 70px;
+    width: 100%;
+    background: #fefefe;
+    border-radius: 10px;
+    margin-top: 65px;
+}
+.chap_subscribe h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #0B132A;
+}
+.chap_subscribe p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #4F5665
+}
+.ong_subscribe button{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    border-radius: 10px;
+    padding: 15px 65px;
+    box-shadow: 0px 25px 55px rgba(245, 56, 56, 0.35);
+    border: none;
+}
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap:10px
+}
+.footer_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer_1 p{
+    display: flex;
+    align-items: center;
+}
